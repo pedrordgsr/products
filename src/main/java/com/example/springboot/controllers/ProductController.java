@@ -20,9 +20,6 @@ import java.util.UUID;
 public class ProductController {
 
     @Autowired
-    ProductRepository productRepository;
-
-    @Autowired
     ProductService productService;
 
     @PostMapping("/products")
